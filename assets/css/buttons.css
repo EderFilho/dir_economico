@@ -1,8 +1,36 @@
 .buttons{
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .btn-prox{
-    display: flex;
-    align-items: center;
+ margin-right: 6vw;
+}
+
+
+.btn-voltar{
+    display: inline;
+
+    border: solid 1px;
+    border-radius: 7px;
+    border-style: outset;
+    margin-left: 6vw;
+    padding: 10px 20px;
+    
+    cursor: pointer;
+    text-decoration: none;
+    font-size: medium;
+    color: aliceblue;
+
+}
+
+.btn-voltar:hover{
+    border: solid 1px;
+    
+    text-decoration: none;
+    text-shadow: #313370;
+    box-shadow: 1px 1px 10px #5052b5;
+    
+    transition: 0.9s;
 }
