@@ -1,0 +1,8 @@
+.buttons{
+    display: flex;
+}
+
+.btn-prox{
+    display: flex;
+    align-items: center;
+}
