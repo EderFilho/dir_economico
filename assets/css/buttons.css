@@ -4,25 +4,21 @@
     padding-bottom: 30px;
 }
 
-.btn-prox{
- margin-right: 6vw;
-}
-
-
 .btn-voltar{
     display: inline;
 
     border: solid 1px;
-    border-radius: 7px;
-    border-style: outset;
+    border-radius: 20px;
     margin-left: 6vw;
-    padding: 10px 20px;
+    padding: 10px 25px;
     
     cursor: pointer;
     text-decoration: none;
     font-size: medium;
     color: aliceblue;
-
+    transition-timing-function: ease;
+    transition-duration: 0.5;
+    
 }
 
 .btn-voltar:hover{
@@ -33,4 +29,26 @@
     box-shadow: 1px 1px 10px #5052b5;
     
     transition: 0.9s;
+}
+
+.btn-prox{
+    display: inline;
+
+    border: solid 1px;
+    border-radius: 20px;
+    margin-right: 6vw;
+    padding: 10px 25px;
+    
+    cursor: pointer;
+    text-decoration: none;
+    font-size: medium;
+    color: aliceblue;
+    
+}
+
+.btn-prox:hover{
+
+    border: solid 1px;
+    text-decoration: none;
+    box-shadow:1px 1px 10px #5052b5;
 }
