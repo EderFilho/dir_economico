@@ -52,3 +52,11 @@
     text-decoration: none;
     box-shadow:1px 1px 10px #5052b5;
 }
+
+@media screen and (max-width: 480px){
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+}

@@ -93,6 +93,12 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
+	.prf{
+		text-align: justify;
+		text-indent: 15px;
+		color: white;
+	}
+
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
@@ -2595,7 +2601,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: auto;
+			margin-bottom: 20px;
 			width: 100%;
 		}
 
